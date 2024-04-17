@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  line-height: 1.25;
+  padding: 50px;
+  background-color: #fff0f6;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+/* Get started button with     
+ background color = #087f5b
+color = #fff */
+.get-started-btn,
+.get-record-btn {
+  background-color: #fff;
+  width: 300px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.chrome {
+  background-color: #212529;
+}
+/* Button 1 Get started Style */
+.get-started-btn .b1 {
+  background-color: #087f5b;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 10px;
+  line-height: 1.25;
+  width: 150px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Button 2 Get started styles */
+.get-started-btn .b2 {
+  background-color: #6741d9;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 15px;
+  line-height: 1.25;
+  width: 150px;
+  height: 50px;
+  padding: 8px 24px;
+  border: none;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 0;
+  cursor: pointer;
+}
+
+/* Button 2 Get my Record styles */
+.get-record-btn .b3 {
+  background-color: #7950f2;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 20px;
+  line-height: 1.25;
+  width: 200px;
+  height: 50px;
+  padding: 8px 24px;
+  border: none;
+  border-bottom-left-radius: 0;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* Button 2 Get my Record styles
+liner gradient color first color = #99e9f2   second color =#96f2d7 */
+.get-record-btn .b4 {
+  background: rgb(150, 242, 215);
+  background: linear-gradient(
+    321deg,
+    rgba(150, 242, 215, 1) 50%,
+    rgba(150, 242, 215, 1) 79%,
+    rgba(150, 242, 215, 1) 100%,
+    rgba(153, 233, 242, 1) 100%
+  );
+  color: #212529;
+  font-size: 16px;
+  border-radius: 7px;
+  line-height: 1.25;
+  width: 200px;
+  height: 50px;
+  padding: 8px 24px;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+}
